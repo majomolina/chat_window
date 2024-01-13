@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Window</title>
-</head>
-<body>
-    <div>
-        <h1>chat</h1>
+<html>
+  <head>
+    <title>Chat</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+
+  <body>
+    <div class="iphone">
+      <div class="border">
+        <div class="responsive-html5-chat">
+          <form class="chat">
+            <span></span>
+            <div class="messages"></div>
+            <input type="text" placeholder="Your message" />
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
     </div>
-</body>
+
+    <div class="typing">You're typing</div>
+
+    <script src="src/index.js"></script>
+  </body>
 </html>
